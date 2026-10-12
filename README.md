@@ -1,43 +1,53 @@
-# 🕉️ Lord Ganesha Python Turtle Animation
+# NeoCalc Pro
 
-A real-time line-by-line drawing and metallic gold fill animation of Lord Ganesha created using **Python**, **OpenCV**, and **Turtle Graphics**.
+A modern, interactive calculator with a neumorphic interface, theme switching, and keyboard-friendly controls.
 
-This project processes contour paths with depth hierarchy to trace clean parallel edges and fill strokes with rich metallic gold while preserving hollow background spaces (like palms and crown gaps).
+## Overview
+NeoCalc Pro combines everyday calculator functionality with a polished interface and responsive interaction feedback.
 
----
+## Features
+- Basic arithmetic operations
+- Percentage and sign-toggle controls
+- Light and dark themes
+- Keyboard input support
+- Neumorphic-inspired interface
+- UI animations and interaction feedback
 
-## ✨ Features
+## Built With
+- HTML
+- CSS
+- JavaScript
 
-- **Contour Hierarchy:** Uses OpenCV tree hierarchy to separate stroke ribbons from internal negative spaces.
-- **Dynamic Two-Line Drawing:** Traces contour boundaries and applies smooth fill effects once shapes close.
-- **Metallic Gold Palette:** Custom high-contrast amber-gold borders with glowing core fills.
-- **Realistic Sketching Motion:** Calibrated pacing for a satisfying hand-drawn look.
+## Getting Started
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in a modern browser.
 
----
+No build step is required for the basic version.
 
-## 🛠️ Requirements & Installation
-
-Make sure Python 3.8 or higher is installed on your system.
-
-## 🚀 How to Run
-
-Run the following commands in your terminal:
-
-
-### 1. Clone this repository
-
-```bash
-git clone [https://github.com/Gracyclub/Ganesha-Python-Sketch.git](https://github.com/Gracyclub/Ganesha-Python-Sketch.git)
+## Project Structure
+```text
+neocalc-pro/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
+Adjust the file names above if your repository uses a different structure.
 
-### 2. Navigate to the project directory
+## What I Practiced
+- DOM manipulation and event handling
+- Calculator interaction logic
+- Keyboard input handling
+- Light and dark theme management
+- UI feedback and visual consistency
 
-```bash
-cd Ganesha-Python-Sketch
-```
+## Future Improvements
+- Add calculation history
+- Improve accessibility and keyboard navigation
+- Add automated tests for edge cases
+- Refine behavior on small screens
 
-### 3. Run the Python script
-
-```bash
-python ganesha.py
-```
+## Author
+**Wastav Nagture**  
+GitHub: [@wastavnagture-irl](https://github.com/wastavnagture-irl)
